@@ -12,8 +12,6 @@
 <link rel="stylesheet" href="jquery.mobile.custom.structure.min.css" />
 <!-- <link rel="stylesheet" href="jquery.mobile.custom.theme.min.css" /> -->
 <link rel="stylesheet" href="w3.css" />
-<script src="jquery-2.1.4.min.js"></script>
-<script src="jquery.mobile-1.4.5.min.js"></script>
 <!-- Cordova js -->
 <script src="cordova.js"></script>
 <script type="text/javascript">
@@ -26,12 +24,14 @@
 
     </script>
 <!-- jQuery and jQuery Mobile -->
+<script src="jquery-2.1.4.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
 <!-- W3 schools js - no longer needed as included in calculators.js -->
 <!-- <script src="w3menu.js"></script> -->
 <!-- My js -->
 <script src="calculators.min.js" defer="defer"></script>
 </head>
-<body>
+<body onload="onLoad()">
 <nav class="w3-sidenav w3-white w3-card-4" style="display:none">
   <a href="javascript:void(0)" 
   onclick="w3_close()"
