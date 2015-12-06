@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<widget android-versionCode="63" id="com.radiologytutor.calculators" version="1.3.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="63" id="RadiologyTutor" version="1.3.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
   <name>Radiology Tutor</name>
   <description>This is the app for Radiology Tutor - www.radiologytutor.com - Included are calculators such as adrenal washout calculators, RECIST 1.1 and TNM staging for lung, renal, colon and pancreatic cancer. 
     </description>
