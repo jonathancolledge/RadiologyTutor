@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<widget android-versionCode="63" id="RadiologyTutor" version="1.3.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="63" id="com.radiologytutor.calculators" version="1.3.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
   <name>Radiology Tutor</name>
   <description>This is the app for Radiology Tutor - www.radiologytutor.com - Included are calculators such as adrenal washout calculators, RECIST 1.1 and TNM staging for lung, renal, colon and pancreatic cancer. 
     </description>
@@ -106,14 +106,7 @@
   <gap:plugin name="cordova-plugin-whitelist" source="npm" />
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
-  <preference name="windows-target-version" value="10.0" />
-  <vs:platformSpecificValues xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps">
-    <vs:platformSpecificWidget id="28683JonathanColledge.RadiologyTutor" platformName="windows" version="1.3.0.0">
-      <vs:name>Radiology Tutor</vs:name>
-      <vs:publisherId>CN=7B6292C3-7B32-4841-8061-85FC28F4912B</vs:publisherId>
-      <vs:author>Jonathan Colledge</vs:author>
-    </vs:platformSpecificWidget>
-  </vs:platformSpecificValues>
+  
   <vs:plugin name="cordova-plugin-inappbrowser" version="1.0.1" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" />
   <preference name="Fullscreen" value="True" />
   <preference name="KeepRunning" value="True" />
